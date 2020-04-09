@@ -13,7 +13,7 @@ class Fibonacci {
         var counter = 0
         while (fibonacci(counter) * fibonacci(counter+1) < n)
         {counter++}
-        if(fibonacci(counter)*fibonacci(counter+1) == n) { return intArrayOf(fibonacci(counter),fibonacci(counter+1),1)}
+        if(fibonacci(counter)*fibonacci( counter+1) == n) { return intArrayOf(fibonacci(counter),fibonacci(counter+1),1)}
             else{return intArrayOf(fibonacci(counter),fibonacci(counter+1),0)}
         }
 }
